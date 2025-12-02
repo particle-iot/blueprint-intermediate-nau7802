@@ -106,13 +106,13 @@ This blueprint shows how to pull in a 3rd party library (in this case, [an NAU78
 
       if (shouldCalibrate == true)
       {
-      calibrateScale();
-      shouldCalibrate = false;
+         calibrateScale();
+         shouldCalibrate = false;
       }
       if (shouldTare == true)
       {
-      tareScale();
-      shouldTare = false;
+         tareScale();
+         shouldTare = false;
       }
    }
    ```
