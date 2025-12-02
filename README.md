@@ -59,6 +59,7 @@ This blueprint shows how to pull in a 3rd party library (in this case, [an NAU78
    0000154062 [app] INFO: Reading: 81399 Weight: 0.00 Avg Weight: 114.65
    ```
 6. **Note the 3rd party library**
+
    The NAU7802 driver is pulled in from Sparkfun's NAU7802 Arduino library. The library is stored in `./lib/nau7802` and the header can be directly included `#include "SparkFun_Qwiic_Scale_NAU7802_Arduino_Library.h"`
 
    The Particle compiler will pick up [correctly structured libraries](https://docs.particle.io/getting-started/device-os/firmware-libraries/#library-file-structure) in the `lib` folder.
