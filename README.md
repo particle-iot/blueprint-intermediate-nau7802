@@ -81,7 +81,7 @@ This blueprint shows how to pull in a 3rd party library (in this case, [an NAU78
 
 2. The firmware establishes two cloud functions `tare` and `calibrate`. These simply set flags that are serviced in the main `loop`.
 
-   ```cpp
+   ```c
    int calibrate(String command)
    {
       shouldCalibrate = true;
@@ -119,7 +119,7 @@ This blueprint shows how to pull in a 3rd party library (in this case, [an NAU78
 
 3. The `zero` and the `tare` values are stored in EEPROM so they persist across reboots:
 
-   ```cpp
+   ```c
    // Record the current system settings to EEPROM
    void recordSystemSettings(void)
    {
