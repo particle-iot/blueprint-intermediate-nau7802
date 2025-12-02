@@ -4,7 +4,7 @@
 
 **Estimated Time:** 30 minutes
 
-**Hardware Needed:** [Load cell](https://www.adafruit.com/product/4542) + [NAU7802 QWICC](https://www.adafruit.com/product/4538?srsltid=AfmBOorzuIOzhvsT5_uJGoeCpjHTmeGxpi8KsKiPguUbqlfVRkb5rQLK)
+**Hardware Needed:** [Load cell](https://www.adafruit.com/product/4542) + [NAU7802 QWIIC](https://www.adafruit.com/product/4538?srsltid=AfmBOorzuIOzhvsT5_uJGoeCpjHTmeGxpi8KsKiPguUbqlfVRkb5rQLK)
 
 ---
 
@@ -18,9 +18,9 @@ This blueprint shows how to pull in a 3rd party library (in this case, [an NAU78
 
 - [Particle Muon](https://store.particle.io/products/muon-lte-m-2g-wi-fi-lorawan-dev-board-for-north-america)
 - USB cable
-- [QWICC cable](https://www.adafruit.com/product/4401)
+- [QWIIC cable](https://www.adafruit.com/product/4401)
 - [Load cell](https://www.adafruit.com/product/4542)
-- [NAU7802 QWICC](https://www.adafruit.com/product/4538?srsltid=AfmBOorzuIOzhvsT5_uJGoeCpjHTmeGxpi8KsKiPguUbqlfVRkb5rQLK)
+- [NAU7802 QWIIC](https://www.adafruit.com/product/4538?srsltid=AfmBOorzuIOzhvsT5_uJGoeCpjHTmeGxpi8KsKiPguUbqlfVRkb5rQLK)
 
 ---
 
