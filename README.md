@@ -70,7 +70,7 @@ This blueprint shows how to pull in a 3rd party library (in this case, [an NAU78
 
 ### How It Works
 
-1. Note the power configuration lines early in `setup`. This enables [3V3_AUX which powers the QWIIC expansion port](https://docs.particle.io/reference/datasheets/m-series/muon-datasheet/#expansion-and-peripheral-power) on the Muon.
+1. The power configuration lines early in `setup` enables [3V3_AUX which powers the QWIIC expansion port](https://docs.particle.io/reference/datasheets/m-series/muon-datasheet/#expansion-and-peripheral-power) on the Muon.
 
    ```c
    // Put initialization like pinMode and begin functions here
