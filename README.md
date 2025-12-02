@@ -10,7 +10,7 @@
 
 ### Overview
 
-This blueprint shows how to pull in a 3rd party library (in this case, an NAU7802 driver) into a Particle project.
+This blueprint shows how to pull in a 3rd party library (in this case, [an NAU7802 driver](https://github.com/sparkfun/SparkFun_Qwiic_Scale_NAU7802_Arduino_Library/tree/main)) into a Particle project.
 
 ---
 
