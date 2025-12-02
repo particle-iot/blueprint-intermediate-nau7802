@@ -48,7 +48,7 @@ This blueprint shows how to pull in a 3rd party library (in this case, [an NAU78
    1. Open a serial monitor session by choosing `Particle: Serial monitor` from the command pallette:
       ![Serial monitor](./images/serial-monitor.png)
 
-5. **Observe output**. You should see logs that fluctuate based on the weight applied to the strain gauge.
+5. **Observe output**. You should see readings that fluctuate based on the weight applied to the strain gauge.
    ```
    0000144382 [app] INFO: Reading: 81489 Weight: 0.00 Avg Weight: 0.00
    0000145995 [app] INFO: Reading: 81522 Weight: 0.00 Avg Weight: 0.00
