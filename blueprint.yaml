@@ -1,0 +1,31 @@
+# blueprint.yaml
+slug: blueprint-template
+type: Tutorial
+category: "Blueprint Basics"
+expertiseLevel: "Beginner"               # Beginner | Intermediate | Advanced
+tags: ["Publish", "Function", "Console"]
+icon: assets/hero.jpg                    # relative path to an image or SVG
+gitrepo: https://github.com/particle-iot/blueprint-template
+name: "Blueprint Template"
+shortDescription: "A sample template for creating new Blueprints"
+version: 1.0.0                           # use SemVer
+models: []                               # e.g., ["P2", "Boron 404X"]
+language: ["C++"]
+cloudServices: []                        # e.g., ["IFTTT", "Google Sheets"]
+integrations: []                         # e.g., ["Webhook"]
+supportedDevices:
+  - name: Any Wi-Fi or Cellular Device
+    link: https://docs.particle.io
+webIdeLink:
+webSetupLink:
+hardwareDependencies:
+  - name: Supported device
+  - name: USB cable
+introduction: |
+  Quickstart blueprint.
+description: |
+  This tutorial shows how to create a new blueprint.
+additionalResources:
+  - title: Particle Dev Docs
+    link: https://developer.particle.io/
+
