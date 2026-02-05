@@ -1,7 +1,7 @@
 # blueprint.yaml
 slug: blueprint-template
 type: Tutorial
-category: "Blueprint Basics"
+category: "Sensors and data collection"
 expertiseLevel: "Beginner"               # Beginner | Intermediate | Advanced
 tags: ["Publish", "Function", "Console"]
 icon: assets/hero.jpg                    # relative path to an image or SVG
@@ -11,8 +11,8 @@ shortDescription: "A sample template for creating new Blueprints"
 version: 1.0.0                           # use SemVer
 models: []                               # e.g., ["P2", "Boron 404X"]
 language: ["C++"]
-cloudServices: []                        # e.g., ["IFTTT", "Google Sheets"]
-integrations: []                         # e.g., ["Webhook"]
+cloudServices: []
+integrations: []
 supportedDevices:
   - name: Any Wi-Fi or Cellular Device
     link: https://docs.particle.io
