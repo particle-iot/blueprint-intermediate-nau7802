@@ -37,15 +37,15 @@ This blueprint shows how to pull in a 3rd party library (in this case, [an NAU78
 
 3. **Flash to your device:**
 
-   1. Configure project for your device using Particle Workbench and the command pallette (cmd / ctrl + shift + p):
+   - Configure project for your device using Particle Workbench and the command pallette (cmd / ctrl + shift + p):
       ![Configure project for device](./images/configure-project.png)
-   2. Select your device model and Device OS release:
+   - Select your device model and Device OS release:
       ![Select device](./images/configure-msom.png)
       ![Select device OS](./images/configure-device-os.png)
 
 4. **Open a serial terminal**:
 
-   1. Open a serial monitor session by choosing `Particle: Serial monitor` from the command pallette:
+   - Open a serial monitor session by choosing `Particle: Serial monitor` from the command pallette:
       ![Serial monitor](./images/serial-monitor.png)
 
 5. **Observe output**. You should see readings that fluctuate based on the weight applied to the strain gauge.
