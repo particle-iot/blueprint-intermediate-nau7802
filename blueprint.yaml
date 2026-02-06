@@ -1,31 +1,47 @@
 # blueprint.yaml
-slug: blueprint-template
+slug: blueprint-intermediate-nau7802
 type: Tutorial
 category: "Sensors and data collection"
-expertiseLevel: "Beginner"               # Beginner | Intermediate | Advanced
-tags: ["Publish", "Function", "Console"]
-icon: assets/hero.jpg                    # relative path to an image or SVG
-gitrepo: https://github.com/particle-iot/blueprint-template
-name: "Blueprint Template"
-shortDescription: "A sample template for creating new Blueprints"
-version: 1.0.0                           # use SemVer
-models: []                               # e.g., ["P2", "Boron 404X"]
+expertiseLevel: "Intermediate"
+tags: ["Sensors", "I2C", "Function"]
+icon: assets/hero.jpg
+gitrepo: https://github.com/particle-iot/blueprint-intermediate-nau7802
+name: "NAU7802 Load Cell Integration"
+shortDescription: "Use a NAU7802 QWIIC scale breakout with a load cell to measure weight on your Particle device"
+version: 1.0.0
+models: []
 language: ["C++"]
 cloudServices: []
 integrations: []
 supportedDevices:
-  - name: Any Wi-Fi or Cellular Device
-    link: https://docs.particle.io
-webIdeLink:
-webSetupLink:
+  - name: Muon
+    link: https://docs.particle.io/reference/datasheets/m-series/muon-datasheet/
+  - name: M-SoM
+    link: https://docs.particle.io/reference/datasheets/m-series/msom-datasheet/
 hardwareDependencies:
-  - name: Supported device
+  - name: Particle Muon or M-SoM
   - name: USB cable
+  - name: QWIIC cable
+  - name: Load cell
+    link: https://www.adafruit.com/product/4542
+  - name: NAU7802 QWIIC breakout
+    link: https://www.adafruit.com/product/4538
 introduction: |
-  Quickstart blueprint.
+  This blueprint shows how to pull in a 3rd party library (the SparkFun NAU7802 driver) into a Particle project to measure weight using a load cell.
 description: |
-  This tutorial shows how to create a new blueprint.
-additionalResources:
-  - title: Particle Dev Docs
-    link: https://developer.particle.io/
+  This blueprint demonstrates how to integrate a NAU7802-based QWIIC scale breakout with a load cell to measure weight on your Particle device.
 
+  Key features:
+  - Uses the SparkFun NAU7802 Arduino library as a 3rd party dependency
+  - Implements cloud functions for tare and calibration
+  - Stores calibration values in EEPROM for persistence across reboots
+  - Outputs weight readings via serial monitor
+additionalResources:
+  - title: SparkFun NAU7802 Arduino Library
+    link: https://github.com/sparkfun/SparkFun_Qwiic_Scale_NAU7802_Arduino_Library
+  - title: Particle I2C Documentation
+    link: https://docs.particle.io/reference/device-os/api/wire-i2c/
+  - title: Particle Firmware Libraries
+    link: https://docs.particle.io/getting-started/device-os/firmware-libraries/
+  - title: Particle Cloud Functions
+    link: https://docs.particle.io/reference/device-os/api/cloud-functions/particle-function/
