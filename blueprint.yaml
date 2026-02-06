@@ -4,7 +4,7 @@ type: Tutorial
 category: "Sensors and data collection"
 expertiseLevel: "Intermediate"
 tags: ["Sensors", "I2C", "Function"]
-icon: assets/hero.jpg
+icon: assets/nau7802.svg
 gitrepo: https://github.com/particle-iot/blueprint-intermediate-nau7802
 name: "NAU7802 Load Cell Integration"
 shortDescription: "Use a NAU7802 QWIIC scale breakout with a load cell to measure weight on your Particle device"
